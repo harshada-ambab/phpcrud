@@ -1,0 +1,62 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+h1{
+    text-align: center;
+}
+.container{
+    width: 800px;
+    margin: 25px auto;
+}
+input[type="text"],[type="email"]{
+    width: 100%;
+    padding: 12px;
+    margin: 3px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type="date"] {
+    margin-left: 4px;
+}
+button[type=submit]{
+    padding: 5px;
+    margin: 2px;
+    background-color: darkcyan;
+    color: #000;
+    border-radius: 3px;
+    font-size: 25px;
+
+}
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    /* border:1px solid black; */
+  }
+  
+.table th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #DDD;
+  }
+  
+.table tr:hover {background-color: #D6EEEE;
+}
+
+.container .pagination{
+    display: inline-block;
+  }
+  
+.container .pagination a {
+    color: darkmagenta;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+.pagination a.active {
+    color: green;
+    
+}
+.pagination a:hover:not(.active) {background-color: #ddd;}
+  
